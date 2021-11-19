@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+/* font-family: 'Merriweather Sans', sans-serif; */
+
+body{
+    background-image:url("images/drums.png");
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.float{
+    float: left;
+    padding: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
